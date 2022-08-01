@@ -33,7 +33,7 @@ body {
 }
 
 .main > * {
-    padding: 32px 64px;
+    padding: 64px 64px;
 }
 
 .header {
@@ -117,6 +117,40 @@ body {
     border-radius: 16px;
     border-color: var(--modal-bg-color);
     border-width: 4px;
+    object-fit: cover;
+}
+
+.card-footer {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 25%;
+    background-color: var(--quote-bg-color);
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    background-color:#3882F6;
 }
 
 .footer {
